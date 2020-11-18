@@ -10,8 +10,8 @@ It depends only on standard Python libraries and therefore works with Python 2,
 
 Personal features
 -----------------
-``tab`` key resets tests
-edit quote collection to be generated tests based on 500 most common english words
+- ``tab`` key resets tests
+- edit quote collection to be generated tests based on 500 most common english words
 
 Features
 --------
