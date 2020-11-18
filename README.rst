@@ -8,6 +8,11 @@ speed (measured in words per minute, or WPM).
 It depends only on standard Python libraries and therefore works with Python 2,
 3 and PyPy.
 
+Personal features
+-----------------
+``tab`` key resets tests
+edit quote collection to be generated tests based on 500 most common english words
+
 Features
 --------
 
