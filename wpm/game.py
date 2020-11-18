@@ -246,7 +246,7 @@ class GameManager(object):
                 # Exit program
                 raise KeyboardInterrupt()
 
-        if Screen.is_escape(key):
+        if Screen.is_tab(key) or Screen.is_escape(key):
             self.reset()
             return
 

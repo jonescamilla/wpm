@@ -200,6 +200,13 @@ class Screen(object):
         return False
 
     @staticmethod
+    def is_tab(key):
+        """Checks for escape tab."""
+        if len(key) == 1:
+            return ord(key) == curses.ascii.TAB
+        return False
+
+    @staticmethod
     def is_backspace(key):
         """Checks for backspace key."""
         if len(key) > 1:
