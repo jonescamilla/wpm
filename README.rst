@@ -13,6 +13,7 @@ Personal features
 - ``tab`` key resets tests
 - edit quote collection to be generated tests 
 - function to generate tests based on 500 most common english words
+- new test ever test reset
 
 Features
 --------
