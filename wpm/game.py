@@ -247,7 +247,7 @@ class GameManager(object):
                 raise KeyboardInterrupt()
 
         if Screen.is_tab(key) or Screen.is_escape(key):
-            self.reset()
+            self.reset(direction=1)
             return
 
         self.recorder.add(self.elapsed, key, self.position, self.incorrect)
